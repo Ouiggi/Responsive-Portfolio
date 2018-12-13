@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box
+}
+/*these are to format and style my nav bar*/
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+}
+.navlink:hover {
+    background-color: #dddddd
+}
+.navlink {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+li a:hover {
+    text-decoration: none;
+    background-color: #cccccc
+}
+li {
+    display: inline;
+    color: #777777
+}
+/*this is to style and resize my photos*/
+img {
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #cccccc;
+}
+.bcw {
+    width: 210px;
+    height: 200px;
+    float: left;
+}
+/*this is to style and position my title bar*/
+h1 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 8px;
+    width: 35%;
+    float: left;
+    position: relative;
+    top: 22px;
+    left: 48px;
+    font-weight: bold;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;    
+}
+/*this also adds style to my navbar*/
+.navlink:active {
+    background-color: #e7e6e6;
+    box-shadow: 0 3px 5px gray;
+    transform: translateY(2px);
+}
+.toolbar {
+    display: inline block;
+    float: left;
+    text-decoration: none;
+    color: #777777;
+    position: absolute;
+    top: 45px;
+    left: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px,
+}
+/*this formats the main header box*/
+header {
+    height: 75px;
+    overflow: auto;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 0 5px 10px #cccccc;
+}
+/*this adds the main body background texture*/
+body {
+    background-image: url(../../assets/images/topography.png)
+}
+/*title for the content box*/
+h2 {
+    margin: 0 auto;
+    font-size: 35;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 75%;
+    font-size: 30px;
+    color: #4aaaa5;
+    border-bottom: #cccccc 2px solid;
+}
+/*changes the form fonts*/
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto;
+    width: 100%
+}
+
+.contact {
+    width: 100%
+}
+
+/*paragraph formating*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 30px;
+    line-height: 150%;
+    margin-right: 30px;
+}
+
+/*this is the main content container*/
+section {
+    overflow: auto;
+    position: relative;
+    top: 60px;
+    bottom: 100px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px #cccccc;
+    padding: 15px;
+}
+
+/*this styles the footer*/
+footer {
+    padding-top: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    color: #dddddd;
+    border-top: 8px solid #4aaaa5;
+}
+
+/*format for the contact form*/
+input[type=text], select, textarea {
+    position: relative;
+    left: 50px;
+    width: 60%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 6px;
+}
+
+/*positions the portfolio nav pictures*/
+.navpic {
+    width: 40%;
+    float: left;
+}
+
+/*gives button some flare*/
+.button:hover {
+    background-color: #3c8a86
+}
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.button:active {
+    background-color: #6be4de;
+    box-shadow: 0 3px 5px gray;
+    transform: translateY(2px);
+}
+
+/*positions the form lables*/
+label {
+    position: relative;
+    left: 30px;
+}
+
+@media screen and (max-width:980px) {
+    h1 {
+        text-align: center;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 36px;
+        padding: 8px;
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 22px;
+        left: 48px;
+        font-weight: bold;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    .toolbar {
+        display: inline block;
+        float: left;
+        text-decoration: none;
+        color: #777777;
+        position: absolute;
+        top: 45px;
+        left: 60%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 26px,
+    }
+
+    section {
+        overflow: auto;
+        position: relative;
+        top: 60px;
+        bottom: 100px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 90%;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        box-shadow: 0 5px 10px #cccccc;
+        padding: 15px;
+    }
+
+    .navpic {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        text-align: center;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 36px;
+        padding: 8px;
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 22px;
+        left: 48px;
+        font-weight: bold;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+
+}
+
+@media screen and (max-width:640px) {
+    h1 {
+        text-align: center;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 36px;
+        padding: 8px;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        font-weight: bold;
+    }
+ 
+    .toolbar {
+        text-decoration: none;
+        color: #777777;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        position: fixed;
+        width: 100%;
+        margin: 0 auto;
+        left: 30%;
+        top: 65px;
+    }
+
+    header {
+        height: 100px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #cccccc;
+        box-shadow: 0 5px 10px #cccccc;
+    }
+
+    .navpic {
+        margin: 10 10;
+        width: 90%;
+        float: none
+    }
+
+    .bcw {
+        width: 85%; 
+        height: inherit;
+    }
+
+    p {
+        float:right
+    }
+}
